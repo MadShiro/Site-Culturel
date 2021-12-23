@@ -1,0 +1,73 @@
+
+#site-content {
+  padding: 20px 0px;
+  position: relative;
+  z-index: 1;
+  box-shadow: #000 0 7px 25px 0;
+  background-color: black;
+}
+
+#site-footer {
+  padding: 25px 0;
+  font-size: 85%;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #343a40;
+}
+
+html, body {
+  background: url("../Images/tokyoland.png");
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+#footer{
+  text-align: center;
+  color: white;
+}
+
+.just-red{
+  color: #d11621;
+}
+
+.just-red:hover{
+  color: #d11621;
+  text-decoration: none;
+}
+
+.just-red:active{
+  color: #d11621;
+  text-decoration: none;
+}
+
+h5{
+  display: table;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: #d11621;
+  text-align: center;
+  font-family: 無心;
+
+}
+
+h5:before, h5:after {
+  content: "";
+  display: table-cell;
+  width: 32%;
+  color: #d11621;
+  background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
+}
+#div-footer{
+ text-align: center;
+ margin-left: 22px;
+}
+
+#developped{
+  color: #fff;
+  text-align: center;
+}

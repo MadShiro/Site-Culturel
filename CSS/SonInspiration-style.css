@@ -1,0 +1,41 @@
+#prems {
+  color: white;
+  display: inline-block;
+  box-shadow: 5px 10px darkred;
+  margin-top: 20%;
+  background-color: black;
+}
+.premier {
+ margin-top: 10px;
+ margin-left: 35%;
+}
+
+.deuxième {
+ margin-left: 33%;
+}
+
+.troisième {
+ margin-left: 35%;
+}
+
+#deuxième {
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 10px darkred;
+  margin-top: 20%;
+  margin-left: 5%;
+  background-color: black;
+}
+
+#troisième {
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 10px darkred;
+  margin-top: 20%;
+  background-color: black;
+}
+
+.debut {
+	margin-left: 10%;
+	margin-top: 60px;
+}

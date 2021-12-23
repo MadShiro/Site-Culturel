@@ -1,0 +1,94 @@
+/*Navbar fixé au top*/
+
+/*Navigation fixé dans la navbar à gauche*/
+
+#menu{
+    width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+/*Logo fixé dans la navbar à gauche*/
+
+#logo{
+    width: 4rem;
+}
+
+/*Onglet de navigation actuel*/
+
+#where-i-am{
+    text-decoration: none;
+    color: #d11621;
+    text-transform: uppercase;
+    font-family: 無心;
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 10px 5px;
+    border: 1px solid #d11621;
+}
+
+#where-i-am:hover{
+    transform:scale(0.95);
+}
+
+#where-i-am:active{
+    color: red;
+}
+
+/*Autre onglet de navigation*/
+#m-link{
+	text-decoration: none;
+	color: #d11621;
+    font-family: 無心;
+	padding: 0;margin: 0 10px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+#m-link:hover{
+    transform:scale(0.95);
+
+}
+
+#m-link:active{
+    color: red;
+}
+
+/*Menu déroulant*/
+
+#navbarDropdownMenuLink{
+    text-decoration: none;
+    color: #fff;
+    font-family: 無心;
+    padding: 0;margin: 0 10px;
+    padding-bottom: 3px;
+}
+
+#navbarDropdownMenuLink:hover{
+    background: white;
+    color: black;
+    transform:scale(0.95);
+}
+
+.dropdown-item{
+    text-decoration: ;
+    color: #000;
+    padding: 0;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: 無心;
+}
+
+.dropdown-item:hover{
+    color: #d11621;
+    transform:scale(0.95);
+}
+
+.dropdown-item:active{
+    background: white;
+    color: #FF0000;
+}
+
+a{
+    text-decoration: none;
+}

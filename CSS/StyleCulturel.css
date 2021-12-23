@@ -1,0 +1,32 @@
+.intro {
+ color: white;
+ margin-top: 5%;
+ box-shadow: 5px 10px darkred;	
+ margin-left: 30%;
+ margin-top: 20%;
+ background-color: black;
+}
+
+.presentation {
+ color: white;
+ margin-top: 30%;
+ box-shadow: 5px 10px darkred;
+ margin-left: 30%;
+ background-color: black;
+ margin-bottom: 20%;
+}
+
+.video-responsive { 
+overflow:hidden; 
+padding-bottom:56.25%; 
+position:relative; 
+height:0;
+}
+
+.video-responsive iframe {
+left:0; 
+top:0; 
+height:100%;
+width:100%;
+position:absolute;
+}
